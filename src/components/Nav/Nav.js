@@ -1,20 +1,18 @@
 import React from 'react';
-import data from './nav.json';
+import { Link } from 'react-router-dom'
 
 function Nav() {
 
-  return(
-    <nav>
-      <a href="a">menu</a>
-      <ul>
-        {data.map((item, index) => (
-          <li>
-            <a href="{item.menuLink}">{item.menuName}</a>
-          </li>
-        ))}
-      </ul>
-    </nav>
-  )
+return(
+  <nav>
+    <a href="a">menu</a>
+    <ul>
+      <li>
+        <Link to="/pages/Sobre">Sobre mim</Link>
+      </li>
+    </ul>
+  </nav>
+)
 
 }  
 
