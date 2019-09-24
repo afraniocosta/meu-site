@@ -1,17 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import './nav.scss'
 
 function Nav() {
 
 return(
-  <nav>
-    <a href="a">menu</a>
-    <ul>
-      <li>
-        <Link to="/pages/Sobre">Sobre mim</Link>
-      </li>
-    </ul>
-  </nav>
+  <div className="navhome">
+    <nav> 
+      <ul>
+        <li>
+          <Link to="/">home</Link>
+          <Link to="/sobre">sobre mim</Link>
+          <Link to="/portfolio">portfolio</Link>
+        </li>
+      </ul>
+    </nav>
+  </div>
 )
 
 }  

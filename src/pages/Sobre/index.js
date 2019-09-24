@@ -1,3 +1,3 @@
-import Sobre from '.'
+import Sobre from './Sobre'
 
 export default Sobre

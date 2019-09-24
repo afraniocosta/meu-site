@@ -1,27 +1,24 @@
 import React from 'react';
-import Nav from './components/Nav/Nav';
-import Footer from './components/Footer/Footer';
+import './assets/custom.scss'
+import Home from './pages/Home';
+import Sobre from './pages/Sobre';
+import Portfolio from './pages/Portfolio';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-function App() {
-  return (
-    <>
-      <container>
-        <section>
-          <div className="container">
-            <div className="col-12">
-              <h1>AFRÂNIO COSTA</h1>
-            </div>
-            <div>
-              <div className="navHome">
-                <Nav />
-              </div>
-            </div>
-          </div>
-        </section>
-      </container>
-      <Footer />
-    </>
-  );
+function App () {
+  return(
+    <BrowserRouter>
+      <Switch>
+      <Route exact path='/' component={Home} />
+        <Route path='/sobre' component={Sobre} />
+        <Route path='/portfolio' component={Portfolio} />
+      </Switch>
+    </BrowserRouter>
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+)
 }
 
-export default App;
+export default App

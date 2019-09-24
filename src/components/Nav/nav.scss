@@ -1,0 +1,30 @@
+.navhome {
+
+  nav {  
+
+    ul {
+
+      list-style: none;
+      
+        li {
+        
+          float: left;
+        
+          a {
+            text-decoration: none; 
+            margin: 0 15px 0 0!important;
+
+            &:hover {
+              color: red;
+              
+          }
+        
+        }
+      
+      }
+    
+    }
+    
+  }
+
+}

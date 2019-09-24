@@ -1,8 +1,27 @@
 import React from 'react'
+import Nav from '../../components/Nav/Nav';
+import Footer from '../../components/Footer/Footer';
 
 function Sobre () {
   return (
-   <h1>Sobre</h1>
+    <container>
+      <section>
+        <div className="container">
+          <div className="col-12">
+            <h1>AFRÂNIO COSTA</h1>
+          </div>
+          <div>
+            <div className="navHome">
+              <Nav />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h>Sobre mim</h>
+      </section>
+      <Footer />
+    </container>
   )
 }
 
