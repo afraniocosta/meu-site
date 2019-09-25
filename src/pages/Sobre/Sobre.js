@@ -4,24 +4,39 @@ import Footer from '../../components/Footer/Footer';
 
 function Sobre () {
   return (
-    <container>
+    <>
       <section>
         <div className="container">
-          <div className="col-12">
-            <h1>AFRÂNIO COSTA</h1>
-          </div>
-          <div>
-            <div className="navHome">
+          <div className="d-flex justify-content-center">
+            <div className="grid-12 ">
+              <h1>AFRÂNIO COSTA</h1>
+            </div>
+            <div className="grid-12 ">  
               <Nav />
             </div>
           </div>
         </div>
       </section>
       <section>
-        <h>Sobre mim</h>
+        <div className="container">
+          <div className="row mt-5">
+            <div className="col-8">
+              <h>Sobre mim</h>
+            </div>
+            <div className="col-4">
+              <h>foto</h>
+            </div>  
+          </div>
+        </div>
       </section>
-      <Footer />
-    </container>
+      <section>
+        <div className="container">
+          <div className="row mt-5">
+            <Footer />
+          </div>
+        </div>
+      </section>
+    </>
   )
 }
 
