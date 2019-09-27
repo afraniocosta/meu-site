@@ -1,14 +1,16 @@
 import React from 'react';
 import Nav from '../Nav';
+import './header.scss'
 
 function Header() {
 
   return(
     <header>
-      <div className="container">
+      <div id="header" className="container">
         <div className="row">
           <div className="col-12 col-lg-3">
             <h1>AFRÂNIO COSTA</h1>
+            <p>FRONT-END</p>
           </div>
           <div className="col-12 col-lg-9">
             <Nav />

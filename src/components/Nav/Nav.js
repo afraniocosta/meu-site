@@ -5,7 +5,7 @@ import './nav.scss'
 function Nav() {
 
 return(
-  <div className="navhome">
+  <div className="navhome justify-content-end">
     <nav> 
       <ul>
         <li>
