@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './nav.scss'
 
 function Nav() {
 
+//const menuTogle = [ menu, setMenu ] = useState(0)
+
+
 return(
-  <div className="navhome justify-content-end">
+  <div className="navhome">
+    <div class="nav-toggle">
+      <label for="navicon" class="hamburger" onClick={evt => { console.log('hah') }}>
+          <span className="trace-one"></span>
+          <span className="trace-two"></span>
+          <span className="trace-three"></span>
+      </label>
+    </div>
     <nav> 
       <ul>
         <li>

@@ -10,7 +10,6 @@ function Header() {
         <div className="row">
           <div className="col-12 col-lg-3">
             <h1>AFRÂNIO COSTA</h1>
-            <p>FRONT-END</p>
           </div>
           <div className="col-12 col-lg-9">
             <Nav />

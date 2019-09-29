@@ -1,17 +1,25 @@
+@import "../../assets/variaveis.scss";
+
+body {
+    //background: url(../../assets/bg.jpg) no-repeat;
+    background-attachment: fixed;
+}
 #home {
+    
 
         p {
-            font: 0.81rem Arial;
+            font-size: 0.81rem;
             margin: 0 0 8px 0;
             line-height: 20px;
+
+            
         }
+
+       
 
         h2 {
-            font: 1.25rem Arial;
-        }
-
-        .img-jobs {
-        
+            font-size: 3.25rem;
+            font-weight: bold
         }
 
         .galery-home {

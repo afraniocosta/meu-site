@@ -1,7 +1,46 @@
+@import "../../assets/variaveis.scss";
+
 .navhome {
+
+  .nav-toggle {
+    display: block;
+    padding: 10px 10px 15px 10px;
+    background: #fff;
+    position: relative;
+    top: -33px;
+    right: 33px;
+    z-index: 50;
+    float: right;
+      @media screen and (min-width:769px) { 
+        display: none;
+      }
+    }
+    .hamburger {
+    width: 1.08em;
+    position: relative;
+    display: inline-block;
+    height: 0.6em;
+    font-size: 1.2em;
+    background: #fff;
+    }
+    .hamburger span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #cdcdcd;
+    border-radius: 3px;
+    }
 
   nav {  
     float: right;
+    display: none;
+
+    @media screen and (min-width:769px) { 
+      display: block;
+    }
+    
     ul {
 
       list-style: none;
@@ -13,9 +52,23 @@
           a {
             text-decoration: none; 
             margin: 0 15px 0 0!important;
+            color: $gray-color;
+            transition: 0.5s linear;
+            border: 1px solid  $white-color;
+            border-radius: 15px;
+            padding: 5px;
+            display: block;
+
+
+            @media screen and (min-width:576px) { 
+              display: inline;
+            }
 
             &:hover {
-              color: red;
+              color: $green-color;
+              transition: 0.2s linear;
+              border: 1px solid  $green-color;
+              border-radius: 15px;
               
           }
         
