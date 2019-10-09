@@ -1,11 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import './nav.scss'
 
 function Nav() {
-
-//const menuTogle = [ menu, setMenu ] = useState(0)
-
 
 return(
   <div className="navhome">

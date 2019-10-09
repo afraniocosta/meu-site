@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
+import More from '../../components/More/More';
 import './home.scss'
 import afranio from '../../assets/afranio.png'
 
@@ -21,12 +22,15 @@ function Home () {
               </h2>  
             
               <p className="mt-3 gray-text"> 
-                Me formei em Publicidade e Propaganda em meados de xxxx, mas nessa época fui chamado pra uma "encrenca" em uma agêncua recém criada. 
+                Me formei em Publicidade e Propaganda em meados de xxxx e comecei trabalhando em uma empresa de Software. 
+                Lá tive contato com algumas linguagens de programação e daí partiu meu interesse por Front-End ...
               </p>
             
             </div>
 
           </div>
+
+          <More />
 
         </div>
       <Footer />

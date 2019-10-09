@@ -1,0 +1,26 @@
+@import "../../assets/variaveis.scss";
+
+a.more{
+    background-color: $green-color;
+    border-radius: 15px;
+    padding: 7px 10px 7px 10px;
+
+    float: right;
+    position: relative;
+    right: 30px;
+    text-align: center;
+    color: $white-color;
+    font-weight: bold;
+    
+    &:active {
+        color: $white-color;
+          text-decoration: none;
+          transition: padding 0.2s;
+   
+          border-radius: 25px;
+          text-align: center;
+          padding: 10px 16px 12px 16px;
+          right: 30px;
+    }
+
+}
