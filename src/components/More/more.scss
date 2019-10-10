@@ -1,6 +1,6 @@
 @import "../../assets/variaveis.scss";
 
-a.more{
+.more{
     background-color: $green-color;
     border-radius: 15px;
     padding: 7px 10px 7px 10px;
@@ -23,4 +23,12 @@ a.more{
           right: 30px;
     }
 
+    
 }
+.listNone {
+    display: none;
+}
+
+.listBlock {
+    display: block;
+}    

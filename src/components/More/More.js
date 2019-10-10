@@ -1,28 +1,24 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './more.scss'
 
 function More(){
 
-  const [ items, setItems ] = useState(false)
+  const [ items, setItems ] = useState('listNone')
 
-  useEffect(()=>{
-
-  })
+    function moreItems() {
+      setItems('listBlock')
+    }
 
   return(
     <>
-
-      <button onClick={ setItems() } className='more'>+</button>
-      
-      <ul>
+      <button onClick={moreItems} className='more'>+</button>
+       <ul className={ items }>  
         <li><a href='a'>item 1</a></li>
         <li><a href='a'>item 2</a></li>
         <li><a href='a'>item 3</a></li>
       </ul>
-
     </>
   )
 }
 
 export default More
-
