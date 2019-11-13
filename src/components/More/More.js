@@ -3,22 +3,24 @@ import './more.scss'
 
 function More(){
 
-  const [ items, setItems ] = useState('listNone')
+  const [showItems, setShowItems] = useState(false);
 
-    function moreItems() {
-      setItems('listBlock')
-    }
 
   return(
     <div className='moreDiv'>
-      <button onClick={moreItems} className='more'>+</button>
-       <ul className={ items }>  
-        <li><a href='a'>item 1</a></li>
-        <li><a href='a'>item 2</a></li>
-        <li><a href='a'>item 3</a></li>
-      </ul>
+      <button onClick={() => setShowItems(!showItems)}> + </button>
+      {showItems && 
+        <div>
+          <ul>  
+            <li><a href='a'>item 1</a></li>
+            <li><a href='a'>item 2</a></li>
+            <li><a href='a'>item 3</a></li>
+          </ul>
+        </div>}
     </div>
   )
 }
-
+// https://www.chrisblakely.dev/how-to-show-hide-elements-in-react-using-hooks/
 export default More
+
+

@@ -1,6 +1,6 @@
 @import "../../assets/variaveis.scss";
 
-.more{
+.moreInfo {
     background-color: $green-color;
     border-radius: 15px;
     padding: 7px 10px 7px 10px;
@@ -24,21 +24,21 @@
     }
 
     
-}
-.listNone {
-    display: none;
-}
-
-.listBlock {
-    display: block;
-}
-
-.moreDiv { 
-    width: 60px;
-    float: right;
-}
-ul {
-    position: absolute;
-    float: right;
-    margin: -50px 0 0 -47px
+    .listNone {
+        display: none;
+    }
+    
+    .listBlock {
+        display: block;
+    }
+    
+    .moreDiv { 
+        width: 60px;
+        float: right;
+    }
+    ul {
+        position: absolute;
+        float: right;
+        margin: -50px 0 0 -47px
+    }
 }
