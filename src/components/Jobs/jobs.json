@@ -1,0 +1,30 @@
+[
+
+  {
+    "title": "Conta com a Gente",
+    "description": "Blog do Banco Inter",
+    "img": "../../../imgs/conta.png",
+    "framework": "Wordpress",
+    "link": "https://www.contacomagente.com.br",
+    "target": "blank" 
+  },
+  
+  {
+    "title": "Thega",
+    "description": "Site Thega",
+    "img": "imgs/conta.png",
+    "framework": "Wordpress",
+    "link": "https://www.thega.com.br",
+    "target": "blank" 
+  },
+
+  {
+    "title": "Avanti Farmacêutica",
+    "description": "Site Avanti Farmacêutica",
+    "img": "imgs/conta.png",
+    "framework": "Wordpress",
+    "link": "https://www.avantifarmaceutica.com.br",
+    "target": "blank" 
+  }
+
+]

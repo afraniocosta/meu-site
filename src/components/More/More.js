@@ -3,7 +3,7 @@ import './more.scss'
 
 function More(){
 
-  const [showItems, setShowItems] = useState(false);
+  const [showItems, setShowItems] = useState(false);  
 
 
   return(
