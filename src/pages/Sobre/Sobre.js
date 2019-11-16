@@ -13,7 +13,7 @@ function Sobre () {
         <div className="container">
           <div className="row mt-5">
             <div className="col-8">
-              <h>Sobre mim</h>
+             <h1 className='mb-5 green-color'>Sobre mim</h1>
             </div>
             <div className="col-4">
               <h>foto</h>

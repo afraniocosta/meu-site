@@ -7,14 +7,6 @@
     "framework": "WordPress",
     "link": "https://www.contacomagente.com.br",
     "target": "blank" 
-  },
-  {
-    "title": "Thega",
-    "description": "Site Thega",
-    "image": "images/conta.png",
-    "framework": "WordPress",
-    "link": "https://www.thega.com.br",
-    "target": "blank" 
   }
 
 ]
