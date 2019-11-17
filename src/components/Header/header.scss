@@ -5,10 +5,12 @@ header {
     position: fixed;
     width: 100%;
     z-index: 999;
-    background-color: $white-color;
+    background-color: $green-color;
+    padding: 0 5% 5% 0;
         
-    @media screen and (min-width:576px) { 
-        position: relative
+    @media screen and (min-width:769px) { 
+        position: relative;
+        background-color: transparent;
       }
 }
 

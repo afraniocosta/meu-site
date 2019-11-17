@@ -1,27 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './nav.scss'
 
 function Nav() {
 
+const [showNav, setShowNav] = useState(false); 
+const isMobile = window.innerWidth <= 768;
+
 return(
   <div className="navhome">
-    <div class="nav-toggle">
-      <label for="navicon" class="hamburger" onClick={evt => { console.log('hah') }}>
-          <span className="trace-one"></span>
-          <span className="trace-two"></span>
-          <span className="trace-three"></span>
-      </label>
-    </div>
+    { isMobile ? <button for="navicon" class="btn-hamburger" onClick={() => setShowNav(!showNav)}>
+      <div></div>
+      <div></div>
+      <div></div>
+    </button> : ''}
+    { showNav && 
     <nav> 
       <ul>
         <li>
           <Link to="/">home</Link>
+        </li>
+        <li>  
           <Link to="/sobre">sobre mim</Link>
+        </li>
+        <li>  
           <Link to="/portfolio">portfolio</Link>
         </li>
       </ul>
-    </nav>
+    </nav>}
   </div>
 )
 
