@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
-import More from '../../components/More/More';
 import './home.scss'
 import afranio from '../../assets/afranio.png'
 
@@ -11,6 +10,7 @@ function Home () {
         <section>
           <Header />
         </section>
+        
         <div id="home" className="container">
           
           <div className="row">
@@ -32,8 +32,6 @@ function Home () {
             </div>
 
           </div>
-
-          <More />
 
         </div>
       <Footer />

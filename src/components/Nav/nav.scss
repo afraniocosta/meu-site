@@ -9,9 +9,9 @@
 
       div {
         width: 35px;
-        height: 2px;
+        height: 4px;
         background-color: black;
-        margin: 6px 0;
+        margin: 3px 0;
       }
 
     }
@@ -33,7 +33,10 @@
       
         li {
         
-          display: block;
+          display: block; 
+          font-size: 12px;
+
+
           @media screen and (min-width:769px) { 
             display: inline;
           }

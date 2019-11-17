@@ -1,0 +1,107 @@
+[33mcommit b61ff23bcbcc33823e6dfe90be1bc9dd32db5b18[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Sun Nov 17 11:34:42 2019 -0300
+
+    criação do menu hamburger
+
+[33mcommit ebd10c4952b9795e21978f98bf59c566cad125af[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Sat Nov 16 13:16:49 2019 -0300
+
+    componente jobs
+
+[33mcommit 3f402edfb1ac978a07f858c63198c82aa6ae00e5[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Fri Nov 15 17:57:21 2019 -0300
+
+    criação do componente jobs
+
+[33mcommit 0b48bde00f4a1e1020954126055217a4423d1538[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Fri Nov 15 11:14:13 2019 -0300
+
+    implelemtação do componente portfolio
+
+[33mcommit 68c2629c9bebf219f4cd6ae9d58765d7c9579325[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Tue Nov 12 23:50:23 2019 -0300
+
+    togle
+
+[33mcommit b95c8646bb95b81feecaf08f60a397baaf2c5f82[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Wed Oct 9 22:41:32 2019 -0300
+
+    ajustes more
+
+[33mcommit e52534d3c3899020eb7c3f3064e8f8f69cb846e0[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Wed Oct 9 21:16:22 2019 -0300
+
+    criando o componente more
+
+[33mcommit baee0c54ac3b4812b963cbc9849239dfba581fa1[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Tue Oct 8 22:51:46 2019 -0300
+
+    component more
+
+[33mcommit 4424c888363e7c83d84e4b3ac4e49c32d1aec7cf[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Mon Sep 30 22:24:10 2019 -0300
+
+    ajustes footer
+
+[33mcommit ce1758172c28a44758b942ae4106b2d84a891269[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Sun Sep 29 11:07:08 2019 -0300
+
+    alterações novas
+
+[33mcommit 342e1299bc138588198904360f0d38c2cc477047[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Thu Sep 26 22:37:36 2019 -0300
+
+    criação da home
+
+[33mcommit 3782abeabede63b794809782dda37a26633ea5a3[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Tue Sep 24 23:13:37 2019 -0300
+
+    criação home
+
+[33mcommit 1c57161b6175f75a2b6197b421d75a6b83f0e113[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Mon Sep 23 22:54:10 2019 -0300
+
+    implementação do react router e criação das págs
+
+[33mcommit f5574760aad1a9bb8c777c812142611abb1a81c1[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Sat Sep 21 01:51:06 2019 -0300
+
+    implementando router
+
+[33mcommit e1432bbf72aac537373b0102e9e27a68d242e685[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Fri Sep 20 23:31:37 2019 -0300
+
+    mais evoluções site
+
+[33mcommit 7de6f6b4d3caaefb96efb51efaea80cb08887a57[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Thu Sep 19 22:19:56 2019 -0300
+
+    evolução pág
+
+[33mcommit c9ac7abbaeeb2dd10b6290a26ea4f903aedf79e9[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Wed Sep 18 23:14:02 2019 -0300
+
+    meu site
+
+[33mcommit 4b7a29cfff0b2827c50e3c83dcc80c1373a0433a[m
+Author: afraniocosta <afraniompc@gmail>
+Date:   Wed Sep 18 19:51:25 2019 -0300
+
+    Initial commit from Create React App

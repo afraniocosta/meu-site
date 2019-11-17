@@ -27,7 +27,7 @@ return(
           <Link to="/portfolio">portfolio</Link>
         </li>
       </ul>
-    </nav>}
+    </nav> }
   </div>
 )
 
