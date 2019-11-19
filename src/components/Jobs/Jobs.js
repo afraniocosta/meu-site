@@ -6,8 +6,9 @@ import conta from './images/conta.png'
 
 function Jobs(){
 
-  const [showItems, setShowItems] = useState(false);  
+  const [showItems, setShowItems] = useState(false);
   
+
   return(
   
     <>
@@ -21,7 +22,7 @@ function Jobs(){
 
                 <img src={conta} className='img-fluid img-job' alt="Afrânio"/> 
                 
-                <p className='more' onClick={() => setShowItems(!showItems)} title='Ver o projeto'>+</p>
+                <p className='more' onClick={() => setShowItems(!showItems)} title='Ver o projeto'>{ showItems ? '-' : '+' }</p>
               
                 {showItems && 
                   <div className='bg-content-job'>
@@ -36,12 +37,12 @@ function Jobs(){
                     
                   </div>
                 }
-
+                
               </div>
 
               ))
             }
-
+            
           </div>
         </div>
       </div>

@@ -5,15 +5,14 @@ import './nav.scss'
 function Nav() {
 
 const [showNav, setShowNav] = useState(false); 
-const isMobile = window.innerWidth <= 768;
 
 return(
   <div className="navhome">
-    { isMobile ? <button for="navicon" class="btn-hamburger" onClick={() => setShowNav(!showNav)}>
+    <button for="navicon" class="btn-hamburger" onClick={() => setShowNav(!showNav)}>
       <div></div>
       <div></div>
       <div></div>
-    </button> : ''}
+    </button>
     { showNav && 
     <nav> 
       <ul>
