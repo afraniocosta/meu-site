@@ -8,7 +8,11 @@ function Portfolio () {
   return (
     <>
       <section>
-        <Header />
+       <div className="container">
+          <div className="row">
+            <Header />
+          </div>
+        </div>  
       </section>
 
       <section>

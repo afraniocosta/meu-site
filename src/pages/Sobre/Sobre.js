@@ -5,8 +5,12 @@ import Footer from '../../components/Footer/Footer';
 function Sobre () {
   return (
     <>
-      <section>
-        <Header />
+     <section>
+       <div className="container">
+          <div className="row">
+            <Header />
+          </div>
+        </div>  
       </section>
 
       <section>

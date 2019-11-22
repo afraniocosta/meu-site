@@ -6,12 +6,14 @@ function Nav() {
 
 const [showNav, setShowNav] = useState(false); 
 
+
+
 return(
   <div className="navhome">
     <button for="navicon" class="btn-hamburger" onClick={() => setShowNav(!showNav)}>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div className='navOne'></div>
+      <div className='navTwo'></div>
+      <div className='navThree'></div>
     </button>
     { showNav && 
     <nav> 
