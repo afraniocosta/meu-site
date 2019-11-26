@@ -1,6 +1,22 @@
 @import "../../assets/variaveis.scss";
 
 .jobs {
+
+  .teste {
+    float: left;
+    @media screen and (min-width:769px) { 
+      width: 28%;
+      margin-right: 2%;
+      display: inline;
+    }
+  }
+
+  .wraper {
+    width: 3000px;
+    @media screen and (min-width:769px) { 
+      width: auto;
+    }
+  }
   
   .mobile {
     width: 100%;
@@ -11,6 +27,7 @@
     position: absolute;
     z-index: 1;
     float: left;
+    width: 30%;
   }
 
   .more {
