@@ -5,8 +5,10 @@ import data from './jobs.json';
 function Jobs(){
 
   const [showItems, setShowItems] = useState(false);
+  const [itens, updateItens] = useState([])
+  const [itemAtivo, updateItemAtivo] = useState()
   
-  const isMobile = window.innerWidth >= 768
+  // const isMobile = window.innerWidth >= 768
 
   const imagemPortfolio = require.context('./images');
 
@@ -22,10 +24,11 @@ function Jobs(){
 
             <div className='teste'>
 
-              <img src={imagemPortfolio(item.image)} className='img-fluid' />
+              <img src={imagemPortfolio(item.image)} className='img-fluid' alt={item.title}/>
 
               <p className='more' onClick={() => setShowItems(!showItems)} title='Ver o projeto'>{ showItems ? '-' : '+' }</p>
-              {console.log(item)}
+              <button onClick={() => updateItemAtivo(index)}>Expandir</button>
+              { itemAtivo === index ? <h1>Expandido</h1> : null }
               
               {showItems && 
                 <div className='bg-content-job'>
