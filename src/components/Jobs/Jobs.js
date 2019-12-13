@@ -5,21 +5,18 @@ import data from './jobs.json';
 function Jobs(){
 
   const [showItems, setShowItems] = useState(false);
-<<<<<<< HEAD
-  const [itens, updateItens] = useState([])
+  // const [itens, updateItens] = useState([])
   const [itemAtivo, updateItemAtivo] = useState()
   
-=======
-  const [currentItem, setCurrentItem] = useState(null)
+  // const [currentItem, setCurrentItem] = useState(null)
 
->>>>>>> cc851fa2f3c80efa6bbd5f7520e6f47e2646b3be
   // const isMobile = window.innerWidth >= 768
 
   const imagemPortfolio = require.context('./images');
 
-  function handleCurrentItem (evt, newItem) {
-    setCurrentItem(newItem)
-  }
+  // function handleCurrentItem (evt, newItem) {
+  //   setCurrentItem(newItem)
+  // }
 
   return(
   
@@ -30,15 +27,15 @@ function Jobs(){
                 
             {data.map((item, index) => (
 
-            <div onClick={evt => handleCurrentItem(evt, index)} className='teste'>
+            <div className='teste'>
 
               <img src={imagemPortfolio(item.image)} className='img-fluid' alt={item.title}/>
 
-              <p className='more' onClick={() => setShowItems(!showItems)} title='Ver o projeto'>{ showItems ? '-' : '+' }</p>
-              <button onClick={() => updateItemAtivo(index)}>Expandir</button>
-              { itemAtivo === index ? <h1>Expandido</h1> : null }
+              {/* <p className='more' onClick={() => setShowItems(!showItems)} title='Ver o projeto'>{ showItems ? '-' : '+' }</p> */}
+              <p className='more' onClick={() => updateItemAtivo(index)} title='Ver o projeto'>{ showItems ? '-' : '+' }</p>
+              {/* <button onClick={() => updateItemAtivo(index)}>Expandir</button> */}
+              { itemAtivo === index ?
               
-              {showItems && 
                 <div className='bg-content-job'>
                   
                   <h2 className='mb-3 title'>
@@ -58,6 +55,7 @@ function Jobs(){
                   </p>
                   
                 </div>
+                : ''
               }
 
             </div>
