@@ -13,9 +13,11 @@
 
   .wraper {
     width: 3000px;
+    
     @media screen and (min-width:769px) { 
       width: auto;
     }
+
   }
   
   .mobile {
@@ -24,10 +26,16 @@
   }
 
   .content-job {
-    position: absolute;
-    z-index: 1;
     float: left;
     width: 30%;
+    
+    @media screen and (min-width:769px) { 
+      position: absolute;
+      z-index: 1;
+      float: left;
+      width: 30%;
+    }
+    
   }
 
   .more {

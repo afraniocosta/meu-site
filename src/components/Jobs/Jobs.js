@@ -5,13 +5,21 @@ import data from './jobs.json';
 function Jobs(){
 
   const [showItems, setShowItems] = useState(false);
+<<<<<<< HEAD
   const [itens, updateItens] = useState([])
   const [itemAtivo, updateItemAtivo] = useState()
   
+=======
+  const [currentItem, setCurrentItem] = useState(null)
+
+>>>>>>> cc851fa2f3c80efa6bbd5f7520e6f47e2646b3be
   // const isMobile = window.innerWidth >= 768
 
   const imagemPortfolio = require.context('./images');
 
+  function handleCurrentItem (evt, newItem) {
+    setCurrentItem(newItem)
+  }
 
   return(
   
@@ -22,7 +30,7 @@ function Jobs(){
                 
             {data.map((item, index) => (
 
-            <div className='teste'>
+            <div onClick={evt => handleCurrentItem(evt, index)} className='teste'>
 
               <img src={imagemPortfolio(item.image)} className='img-fluid' alt={item.title}/>
 
