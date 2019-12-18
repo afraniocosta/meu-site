@@ -22,7 +22,7 @@ function Jobs(){
 
             <div className='job mt-3'>
              
-              { itemAtivo === index ?
+              { itemAtivo === index || isMobile ?
                 
                 <div className='bg-content-job'>
                   
