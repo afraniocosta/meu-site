@@ -5,17 +5,12 @@ body {
     background-attachment: fixed;
 }
 #home {
-    
 
         p {
             font-size: 0.81rem;
             margin: 0 0 8px 0;
             line-height: 20px;
-
-            
-        }
-
-       
+        }     
 
         h2 {
             font-size: 3.25rem;
@@ -26,7 +21,22 @@ body {
             overflow: auto;
         }
 
-   
+        .circle-photo {
+            border-radius: 162px;
+            border: 1px solid #ccc;
+            max-width: 280px;
+            height: 280px;
+            margin: 0 auto;
+            margin-top: 20px;
+            
+            @media screen and (min-width:576px) { 
+                border-radius: 0;
+                border: none;
+                width: auto;
+                height: auto;
+            }
+            
+         }
 
     
 }

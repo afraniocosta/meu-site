@@ -19,7 +19,7 @@ function Portfolio () {
         <div className="container">
           <div className="row mt-5">
             <div className="col-12">
-              <h1 className='mb-5 green-color'>Portfolio</h1>
+              <h2 className='mb-5'>Últimos <span className='gray-color'>trabalhos</span></h2>
               <Jobs />
             </div>
           </div>

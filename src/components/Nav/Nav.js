@@ -5,7 +5,7 @@ import './nav.scss'
 function Nav() {
 
 const [showNav, setShowNav] = useState(false); 
-
+const isMobile = window.innerWidth >= 768
 
 
 return(

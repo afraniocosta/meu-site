@@ -4,13 +4,13 @@ import data from './jobs.json';
 
 function Jobs(){
 
-  const [showItems, setShowItems] = useState(false);
+  // const [showItems, setShowItems] = useState(false);
   // const [itens, updateItens] = useState([])
-  const [itemAtivo, updateItemAtivo] = useState()
+  const [itemAtivo, updateItemAtivo] = useState();
   
   // const [currentItem, setCurrentItem] = useState(null)
 
-  // const isMobile = window.innerWidth >= 768
+  const isMobile = window.innerWidth >= 768
 
   const imagemPortfolio = require.context('./images');
 
@@ -27,13 +27,8 @@ function Jobs(){
                 
             {data.map((item, index) => (
 
-            <div className='teste'>
-
-              <img src={imagemPortfolio(item.image)} className='img-fluid' alt={item.title}/>
-
-              {/* <p className='more' onClick={() => setShowItems(!showItems)} title='Ver o projeto'>{ showItems ? '-' : '+' }</p> */}
-              <p className='more' onClick={() => updateItemAtivo(index)} title='Ver o projeto'>{ showItems ? '-' : '+' }</p>
-              {/* <button onClick={() => updateItemAtivo(index)}>Expandir</button> */}
+            <div className='job mt-3'>
+             
               { itemAtivo === index ?
               
                 <div className='bg-content-job'>
@@ -53,11 +48,17 @@ function Jobs(){
                   <p className='text-link mt-5 text-link'>
                     <a href={item.link} title={item.title}>visitar</a>
                   </p>
+
+                  <p className='less' onClick={() => updateItemAtivo(!index)} title='Fechar'>-</p>
                   
                 </div>
-                : ''
+                :  
+                <div>
+                  <img src={imagemPortfolio(item.image)} className='img-fluid' alt={item.title}/>
+                  <p className='more' onClick={() => updateItemAtivo(index)} title='Ver o projeto'>+</p>
+                </div>  
               }
-
+              
             </div>
               
               // <div className='mb-5 col-12 col-md-6 col-lg-4'>
