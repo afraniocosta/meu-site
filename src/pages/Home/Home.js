@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import './home.scss'
-import afranio from '../../assets/afranio.png'
+import avatar from '../../assets/avatar.png'
 
 function Home () {
   return (
@@ -20,7 +20,7 @@ function Home () {
           <div className="row">
           
             <div className="col-sm-6 offset-1 col-md-6 col-lg-6 offset-lg-1 order-lg-2 mt-5">
-              <img src={afranio} className='circle-photo' alt="Afrânio"/>
+              <img src={avatar} className='circle-photo' alt="Afrânio"/>
             </div>
 
             <div className="col-12 col-md-6 col-lg-5 mt-3">

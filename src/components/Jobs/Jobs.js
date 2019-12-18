@@ -10,7 +10,7 @@ function Jobs(){
   
   // const [currentItem, setCurrentItem] = useState(null)
 
-  const isMobile = window.innerWidth >= 768
+  // const isMobile = window.innerWidth >= 768
 
   const imagemPortfolio = require.context('./images');
 
