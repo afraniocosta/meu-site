@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './jobs.scss';
 import data from './jobs.json';
 
 function Jobs(){
 
-  const [itemAtivo, updateItemAtivo] = useState();
+  const [activeItem, updateActiveItem] = useState();
   
   const isMobile = window.innerWidth <= 768
 
@@ -20,7 +20,7 @@ function Jobs(){
 
         <div className='job mt-3 col-12 col-lg-4'>
           
-          { itemAtivo === index || isMobile ?
+          { activeItem === index || isMobile ?
             
             <div className='bg-content-job'>
               
@@ -40,13 +40,13 @@ function Jobs(){
                 <a href={item.link} title={item.title}>visitar</a>
               </p>
 
-              <p className='less' onClick={() => updateItemAtivo(!index)} title='Fechar'>-</p>
+              <p className='less' onClick={() => updateActiveItem(!index)} title='Fechar'>-</p>
               
             </div>
             :  
             <div>
               <img src={imagemPortfolio(item.image)} className='img-fluid' alt={item.title}/>
-              <p className='more' onClick={() => updateItemAtivo(index)} title='Ver o projeto'>+</p>
+              <p className='more' onClick={() => updateActiveItem(index)} title='Ver o projeto'>+</p>
             </div>  
           }
           
