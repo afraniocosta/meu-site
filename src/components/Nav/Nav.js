@@ -5,11 +5,11 @@ import './nav.scss'
 function Nav() {
 
 const [showNav, setShowNav] = useState(false); 
-const isMobile = window.innerWidth >= 768
+// const isMobile = window.innerWidth <= 768
 
 
 return(
-  <div className="navhome">
+  <div className="navhome mr-3">
     <button for="navicon" class="btn-hamburger" onClick={() => setShowNav(!showNav)}>
       <div className='navOne'></div>
       <div className='navTwo'></div>

@@ -4,11 +4,22 @@
 
   .job {
     float: left;
-    display: inline-block;
     margin-right: 5px;
-    background-color: $green-color;
     width: 300px;
-    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+
+     @media screen and (min-width:769px) { 
+      float: left;
+        margin-right: 5px;
+      background-color: $green-color;
+      width: 300px;
+      border: none;
+      border-radius: 0px;
+      padding: 0;
+     }
+
       img{
         width: 100%;
       }  
@@ -20,7 +31,7 @@
   }
 
   .wraper {
-    width: 3000%;
+    width: 3000px;
     
     @media screen and (min-width:769px) { 
       width: auto;

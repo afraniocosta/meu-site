@@ -15,7 +15,7 @@ function Home () {
           </div>  
         </section>
         
-        <div id="home" className="container">
+        <div id="home" className="container mt-5">
           
           <div className="row">
           
@@ -23,7 +23,7 @@ function Home () {
               <img src={avatar} className='circle-photo' alt="Afrânio"/>
             </div>
 
-            <div className="col-12 col-md-6 col-lg-5 mt-3">
+            <div className="col-12 col-md-6 col-lg-5 mt-3 ml-0">
               <h2 className="mt-5 green-color">
               Quem <span className='gray-color'>sou eu</span>
               </h2>  

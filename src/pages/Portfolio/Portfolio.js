@@ -26,13 +26,7 @@ function Portfolio () {
         </div>
       </section>
       
-      <section>
-        <div className="container">
-          <div className="row mt-5">
-            <Footer />
-          </div>
-        </div>
-      </section>
+      <Footer />
     </>
   )
 }
