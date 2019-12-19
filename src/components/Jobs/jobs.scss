@@ -110,8 +110,11 @@
 
   .text-link {
     a {
-      color: $white-color;
+      color: $black-color;
       font-size: 12px;
+      @media screen and (min-width:769px) { 
+        color: $white-color;
+      }
     }  
   }
 
