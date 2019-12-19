@@ -3,16 +3,16 @@
 .jobs {
 
   .job {
-    float: left;
-    margin-right: 5px;
-    width: 300px;
+    // float: left;
+    // margin-right: 5px;
+    // width: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 10px;
+    // padding: 10px;
 
      @media screen and (min-width:769px) { 
       float: left;
-        margin-right: 5px;
+      margin-right: 5px;
       background-color: $green-color;
       width: 300px;
       border: none;
@@ -30,14 +30,14 @@
       }
   }
 
-  .wraper {
-    width: 3000px;
+  // .wraper {
+  //   width: 3000px;
     
-    @media screen and (min-width:769px) { 
-      width: auto;
-    }
+  //   @media screen and (min-width:769px) { 
+  //     width: auto;
+  //   }
 
-  }
+  // }
   
   .mobile {
     width: 100%;
