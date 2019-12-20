@@ -3,7 +3,7 @@
   {
     "title": "Nome da Empresa",
     "description": "Nome do Projeto",
-    "image": "./image-01.png",
+    "image": "./01.jpg",
     "framework": "WordPress",
     "link": "https://www.contacomagente.com.br",
     "target": "blank" 
@@ -11,7 +11,7 @@
   {
     "title": "Nome da Empresa",
     "description": "Nome do Projeto",
-    "image": "./image-02.png",
+    "image": "./02.jpg",
     "framework": "WordPress",
     "link": "https://www.contacomagente.com.br",
     "target": "blank" 
@@ -19,7 +19,7 @@
   {
     "title": "Nome da Empresa",
     "description": "Nome do Projeto",
-    "image": "./image-03.png",
+    "image": "./03.jpg",
     "framework": "WordPress",
     "link": "https://www.contacomagente.com.br",
     "target": "blank" 
@@ -27,7 +27,7 @@
   {
     "title": "Nome da Empresa",
     "description": "Nome do Projeto",
-    "image": "./image-04.png",
+    "image": "./04.jpg",
     "framework": "WordPress",
     "link": "https://www.contacomagente.com.br",
     "target": "blank" 
@@ -35,7 +35,7 @@
   {
     "title": "Nome da Empresa",
     "description": "Nome do Projeto",
-    "image": "./image-05.png",
+    "image": "./05.jpg",
     "framework": "WordPress",
     "link": "https://www.contacomagente.com.br",
     "target": "blank" 
@@ -43,7 +43,7 @@
   {
     "title": "Nome da Empresa",
     "description": "Nome do Projeto",
-    "image": "./image-06.png",
+    "image": "./06.jpg",
     "framework": "WordPress",
     "link": "https://www.contacomagente.com.br",
     "target": "blank" 

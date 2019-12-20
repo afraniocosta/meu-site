@@ -5,7 +5,7 @@ import './nav.scss'
 function Nav() {
 
 const [showNav, setShowNav] = useState(false); 
-// const isMobile = window.innerWidth <= 768
+const isMobile = window.innerWidth <= 768
 
 
 return(
@@ -19,7 +19,7 @@ return(
     <nav> 
       <ul>
         <li>
-          <Link to="/">home</Link>
+          <Link to="/">página inicial</Link>
         </li>
         <li>  
           <Link to="/sobre">sobre mim</Link>

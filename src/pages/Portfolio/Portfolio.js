@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import Jobs from '../../components/Jobs/Jobs';
+import './portfolio.scss';
 import '../../assets/variaveis.scss'
 
 function Portfolio () {
@@ -15,10 +16,12 @@ function Portfolio () {
         </div>  
       </section>
 
-      <section>
+      <section id='portfolio'>
         <div className="container">
           <div className="row mt-5">
-            <h2 className='mb-5'>Últimos <span className='gray-color'>trabalhos</span></h2>
+          <h2 className="mt-5 green-color">Últimos <span className='gray-color'>trabalhos</span></h2>
+          </div>
+          <div className="row">
             <Jobs />
           </div>
         </div>
