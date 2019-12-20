@@ -1,0 +1,21 @@
+@import "../../assets/variaveis.scss";
+
+body {
+    //background: url(../../assets/bg.jpg) no-repeat;
+    background-attachment: fixed;
+}
+#contato {
+
+        p {
+            font-size: 0.81rem;
+            margin: 0 0 8px 0;
+            line-height: 20px;
+        }     
+
+        h2 {
+            font-size: 1.20rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    
+}

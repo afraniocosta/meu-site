@@ -5,7 +5,7 @@ import './nav.scss'
 function Nav() {
 
 const [showNav, setShowNav] = useState(false); 
-const isMobile = window.innerWidth <= 768
+// const isMobile = window.innerWidth <= 768
 
 
 return(
@@ -26,6 +26,9 @@ return(
         </li>
         <li>  
           <Link to="/portfolio">portfolio</Link>
+        </li>
+        <li>  
+          <Link to="/contato">contato</Link>
         </li>
       </ul>
     </nav> }
