@@ -3,13 +3,16 @@ import './jobs.scss';
 import data from './jobs.json';
 
 function Jobs(){
-
-  const [activeItem, updateActiveItem] = useState();
   
-  const isMobile = window.innerWidth <= 375
-
   const imagemPortfolio = require.context('./images');
 
+  const [activeItem, updateActiveItem] = useState();
+  // const [portfolioView, updateportfolioView] = useState(6);
+
+  const isMobile = window.innerWidth <= 375
+  const portfolioAmount = data.length >= 6
+
+  
 
   return(
   
@@ -53,7 +56,11 @@ function Jobs(){
 
         ))
       }
-            
+      { portfolioAmount ?
+      <div>
+        <buttom className='btn-see-more'>ver mais</buttom>
+      </div> : ''
+      }   
     </>
   )
 }
