@@ -19,9 +19,9 @@ function Portfolio () {
       <section id='portfolio'>
         <div className="container">
           <div className="row mt-5">
-          <h2 className="mt-5 green-color">Últimos <span className='gray-color'>trabalhos</span></h2>
+          <h2 className="green-color">Últimos <span className='gray-color'>trabalhos</span></h2>
           </div>
-          <div className="row">
+          <div className="row porfolio">
             <Jobs />
           </div>
         </div>

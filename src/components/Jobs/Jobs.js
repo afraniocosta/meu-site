@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './jobs.scss';
 import data from './jobs.json';
 
@@ -7,12 +7,15 @@ function Jobs(){
   const imagemPortfolio = require.context('./images');
 
   const [activeItem, updateActiveItem] = useState();
-  // const [portfolioView, updateportfolioView] = useState(6);
+  // const [portfolioView, updateportfolioView] = useState('portfolio');
 
   const isMobile = window.innerWidth <= 375
   const portfolioAmount = data.length >= 6
 
-  
+  // useEffect(()=>{
+  //   updateportfolioView() 
+  //     return portfolioView + 1
+  // })
 
   return(
   
@@ -56,9 +59,9 @@ function Jobs(){
 
         ))
       }
-      { portfolioAmount ?
+      { portfolioAmount ? 
       <div>
-        <buttom className='btn-see-more'>ver mais</buttom>
+        <buttom className='btn-see-more' /*onClick={() => updateportfolioView()}*/>ver mais</buttom>
       </div> : ''
       }   
     </>

@@ -18,7 +18,7 @@ function Sobre () {
         <div id="sobre" className="container">
           <div className="row mt-5">
             <div className="col-12">
-            <h2 className="mt-5 green-color">Sobre <span className='gray-color'>mim</span></h2>
+            <h2 className="green-color">Sobre <span className='gray-color'>mim</span></h2>
              <p className="mt-3 gray-text"> 
               Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, 
               e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja 

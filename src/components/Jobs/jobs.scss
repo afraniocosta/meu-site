@@ -40,7 +40,7 @@
     text-align: center;
     width: 20px;
     color: $white-color;
-    margin: -23px 0 0 0;
+    margin: -27px 0 0 0!important;
     z-index: 1;
     position: relative;
     cursor: pointer;
@@ -54,7 +54,7 @@
     text-align: center;
     width: 20px;
     color: $white-color;
-    margin: 66px -15px 0 0;
+    margin: 26px -15px 0 0!important;
     z-index: 1;
     position: relative;
     cursor: pointer;
@@ -102,5 +102,11 @@
       color: $white-color;
       padding: 10px;
   }
-
+  .portfolio {
+   
+    height: 501px;
+    overflow: hidden; 
+    background-color: green($color: #000000);  
+    
+}
 
