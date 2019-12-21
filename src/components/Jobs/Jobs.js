@@ -59,11 +59,13 @@ function Jobs(){
 
         ))
       }
+      <div className='row col-12'>
       { portfolioAmount ? 
       <div>
         <buttom className='btn-see-more' /*onClick={() => updateportfolioView()}*/>ver mais</buttom>
       </div> : ''
       }   
+      </div>
     </>
   )
 }
