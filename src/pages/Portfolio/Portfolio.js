@@ -21,9 +21,9 @@ function Portfolio () {
           <div className="row mt-5">
           <h2 className="green-color">Últimos <span className='gray-color'>trabalhos</span></h2>
           </div>
-          <div className="row porfolio">
+         
             <Jobs />
-          </div>
+          
         </div>
       </section>
       
