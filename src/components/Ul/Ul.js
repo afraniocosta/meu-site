@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './ul.scss'
 
 function Ul() {
-
+// lipar o css duplicado
 return(
   <ul>
     <li>

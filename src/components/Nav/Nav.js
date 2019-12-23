@@ -3,6 +3,7 @@ import './nav.scss'
 import Ul from '../Ul';
 
 function Nav() {
+// lipar o css duplicado
 
 const [showNav, setShowNav] = useState(false); 
 const isMobile = window.innerWidth <= 375
