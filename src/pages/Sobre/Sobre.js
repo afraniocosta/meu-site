@@ -30,7 +30,7 @@ function Sobre () {
              </p>
             </div>
             <div className="col-12">
-              <h>foto</h>
+              <h2>foto</h2>
             </div>  
           </div>
         </div>

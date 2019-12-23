@@ -29,7 +29,7 @@ function Home () {
               </h2>  
             
               <p className="mt-3 gray-text"> 
-                Formado em Publicidade e Propaganda e em Análise e Desenvolvimento de Sistemas. Atuo como Front-End há xx anos.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               </p>
 
               <p>saiba mais sobre mim</p>
