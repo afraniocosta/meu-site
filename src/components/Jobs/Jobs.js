@@ -57,7 +57,7 @@ function Jobs(){
           
         </div>
 
-          ))
+        ))
         }
 
         <div className='row col-12'>
