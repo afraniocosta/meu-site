@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import './nav.scss'
+import Ul from '../Ul';
 
 function Nav() {
 
 const [showNav, setShowNav] = useState(false); 
 const isMobile = window.innerWidth <= 375
 const isDesktop = window.innerWidth > 768
-
 
 return(
   <div className="navhome mr-3">
@@ -17,38 +16,11 @@ return(
       <div className='navThree'></div>
     </button> : ''}
     { isDesktop ? 
-    // criar um componente ul e chamar ele aqui em cada nav. Assim terei um apenas
     <nav> 
-      <ul>
-        <li>
-          <Link to="/">página inicial</Link>
-        </li>
-        <li>  
-          <Link to="/sobre">sobre mim</Link>
-        </li>
-        <li>  
-          <Link to="/portfolio">portfolio</Link>
-        </li>
-        <li>  
-          <Link to="/contato">contato</Link>
-        </li>
-      </ul>
+      <Ul />
     </nav>: showNav &&
     <nav> 
-      <ul>
-        <li>
-          <Link to="/">página inicial</Link>
-        </li>
-        <li>  
-          <Link to="/sobre">sobre mim</Link>
-        </li>
-        <li>  
-          <Link to="/portfolio">portfolio</Link>
-        </li>
-        <li>  
-          <Link to="/contato">contato</Link>
-        </li>
-      </ul>
+       <Ul />
     </nav> }
   </div>
 )
