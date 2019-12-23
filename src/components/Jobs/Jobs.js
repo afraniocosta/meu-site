@@ -9,8 +9,10 @@ function Jobs(){
   const [activeItem, updateActiveItem] = useState();
   const [portfolioView, updateportfolioView] = useState('portfolio');
 
-  // Definindo largura e altura
+  // Definindo largura mobile
   const isMobile = window.innerWidth <= 768
+
+  // defini uma constante que define 6 items. Depois uso para fazer com que apareça 6
   const portfolioAmount = data.length >= 6
 
   // Usando ref
