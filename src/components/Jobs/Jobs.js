@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './jobs.scss';
 import data from './jobs.json';
 
@@ -59,13 +59,15 @@ function Jobs(){
 
           ))
         }
+
         <div className='row col-12'>
-        { portfolioAmount ? 
-        <div>
-          <buttom className='btn-see-more'>ver mais</buttom>
-        </div> : ''
-        }   
+          { portfolioAmount ? 
+            <div>
+              <buttom className='btn-see-more'>ver mais</buttom>
+            </div> : ''
+          }   
         </div>
+
       </div> 
     </>
   )
