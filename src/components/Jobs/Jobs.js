@@ -9,7 +9,7 @@ function Jobs(){
   const [activeItem, updateActiveItem] = useState();
   // const [portfolioView, updateportfolioView] = useState('portfolio');
 
-  const isMobile = window.innerWidth <= 375
+  const isMobile = window.innerWidth <= 768
   const portfolioAmount = data.length >= 6
 
   // useEffect(()=>{

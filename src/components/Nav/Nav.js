@@ -6,7 +6,7 @@ function Nav() {
 // lipar o css duplicado
 
 const [showNav, setShowNav] = useState(false); 
-const isMobile = window.innerWidth <= 375
+const isMobile = window.innerWidth <= 768
 const isDesktop = window.innerWidth > 768
 
 return(
