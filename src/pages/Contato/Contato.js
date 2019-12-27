@@ -35,7 +35,6 @@ function Contato () {
           </div>
         </div>
       </section>
-      
       <Footer />
     </>
   )

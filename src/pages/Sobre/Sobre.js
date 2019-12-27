@@ -35,7 +35,6 @@ function Sobre () {
           </div>
         </div>
       </section>
-      
       <Footer />
     </>
   )

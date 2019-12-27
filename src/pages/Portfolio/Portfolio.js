@@ -3,7 +3,6 @@ import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import Jobs from '../../components/Jobs/Jobs';
 import './portfolio.scss';
-import '../../assets/variaveis.scss'
 
 function Portfolio () {
   return (
@@ -21,12 +20,9 @@ function Portfolio () {
           <div className="row mt-5">
           <h2 className="green-color">Últimos <span className='gray-color'>trabalhos</span></h2>
           </div>
-         
             <Jobs />
-          
         </div>
       </section>
-      
       <Footer />
     </>
   )
