@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './nav.scss'
 
@@ -6,12 +6,6 @@ function Nav() {
 
 const [showNav, setShowNav] = useState(false); 
 const isMobile = window.innerWidth <= 768
-
-// useEffect((showNav)=>{
-//   if(!isMobile) {
-//     showNav = useState(true);
-//   }
-// })
 
 return(
   <div className="navhome mr-3">
@@ -40,7 +34,6 @@ return(
     </nav> : '' }
   </div>
 )
-
 }  
 
 export default Nav;    

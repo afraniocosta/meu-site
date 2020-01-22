@@ -1,9 +1,10 @@
 @import "../../assets/variaveis.scss";
 
 body {
-    //background: url(../../assets/bg.jpg) no-repeat;
-    background-attachment: fixed;
+  //background: url(../../assets/bg.jpg) no-repeat;
+  background-attachment: fixed;
 }
+
 #sobre {
 
     padding-top: 5rem;
@@ -18,10 +19,10 @@ body {
             line-height: 20px;
         }     
 
-        h2 {
-            font-size: 1.20rem;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
+  h2 {
+    font-size: 1.20rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
     
 }

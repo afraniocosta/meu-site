@@ -7,15 +7,16 @@ function Jobs(){
   const imagemPortfolio = require.context('./images');
 
   const [activeItem, updateActiveItem] = useState();
-  // const [portfolioView, updateportfolioView] = useState('portfolio');
 
-  // const isMobile = window.innerWidth <= 375
-  // const portfolioAmount = data.length >= 6
+  // Definindo largura mobile
+  // const isMobile = window.innerWidth <= 768
+
+  // useEffect: https://overreacted.io/pt-br/a-complete-guide-to-useeffect/
 
   return(
   
     <>
-      <div className="row">         
+      <div className='row'>         
         {data.map((item, index) => (
 
         <div className='mt-3 col-12 col-md-6 col-lg-4'>
@@ -52,7 +53,7 @@ function Jobs(){
           
         </div>
 
-          ))
+        ))
         }
         {/* <div className='row col-12'>
           { portfolioAmount ? 
