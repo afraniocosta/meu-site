@@ -18,8 +18,8 @@ function Portfolio () {
 
       <section id='portfolio'>
         <div className="container">
-          <div className="row mt-5">
-          <h2 className="green-color">Últimos <span className='gray-color'>trabalhos</span></h2>
+          <div className="row mt-5 mx-0">
+            <h2 className="green-color">Últimos <span className='gray-color'>trabalhos</span></h2>
           </div>
          
             <Jobs />

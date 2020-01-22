@@ -71,14 +71,6 @@
     "framework": "WordPress",
     "link": "https://www.contacomagente.com.br",
     "target": "blank" 
-  },
-  {
-    "title": "Nome da Empresa",
-    "description": "Nome do Projeto",
-    "image": "./06.jpg",
-    "framework": "WordPress",
-    "link": "https://www.contacomagente.com.br",
-    "target": "blank" 
   }
 
 ]

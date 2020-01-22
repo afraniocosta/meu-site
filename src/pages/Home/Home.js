@@ -29,7 +29,7 @@ function Home () {
               </h2>  
             
               <p className="mt-3 gray-text"> 
-                Formado em Publicidade e Propaganda e em Análise e Desenvolvimento de Sistemas. Atuo como Front-End há xx anos.
+              Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
               </p>
 
               <p>saiba mais sobre mim</p>

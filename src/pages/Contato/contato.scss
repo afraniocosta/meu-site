@@ -6,6 +6,12 @@ body {
 }
 #contato {
 
+    padding-top: 5rem;
+
+    @media screen and (min-width:769px) { 
+        padding-top: 0;  
+    }
+
         p {
             font-size: 0.81rem;
             margin: 0 0 8px 0;
