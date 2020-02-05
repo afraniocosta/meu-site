@@ -2,40 +2,38 @@
 
 header {
 
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    background-color: $green-color;
-    padding: 0 5% 5% 0;
-    margin-top: -48px;
-        
-    @media screen and (min-width:769px) { 
-        position: relative;
-        background-color: transparent;
-        margin-top: 0;
-      }
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: $green-color;
+  padding: 0 5% 5% 0;
+  margin-top: -48px;
+      
+  @media screen and (min-width:769px) { 
+      position: relative;
+      background-color: transparent;
+      margin-top: 0;
+    }
 }
 
 #header {
 
-        padding: 30px 0 0 0;
+  padding: 30px 0 0 0;
 
-        .sub-title-logo {
-            color: $gray-color;
-        }
-        h1 {
-            color: $white-color;
-            font:  0.95rem Arial;
-            text-align: center;
-            font-weight: 700;
-            
-            @media screen and (min-width:576px) { 
-                text-align: left;
-                color: $gray-color;
-            }
-
-        }
-        
+  .sub-title-logo {
+      color: $gray-color;
+  }
+  h1 {
+    color: $white-color;
+    font:  0.95rem Arial;
+    text-align: center;
+    font-weight: 700;
     
+    @media screen and (min-width:576px) { 
+        text-align: left;
+        color: $gray-color;
+    }
+
+  }  
     
 }

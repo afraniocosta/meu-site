@@ -19,7 +19,7 @@
   }
 
   .circle-photo {
-    border-radius: 162px;
+    @include border-radius(162px);
     border: 1px solid #ccc;
     max-width: 280px;
     height: 280px;
@@ -27,7 +27,7 @@
     margin-top: 20px;
     
     @media screen and (min-width:576px) { 
-        border-radius: 0;
+        @include border-radius(0);
         border: none;
         width: auto;
         height: auto;

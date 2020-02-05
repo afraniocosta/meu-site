@@ -2,19 +2,19 @@
 
 .navhome {
  
-    .btn-hamburger {
-      float: right;
-      background-color: transparent;
-      border: none;
+  .btn-hamburger {
+    float: right;
+    background-color: transparent;
+    border: none;
 
-      div {
-        width: 35px;
-        height: 4px;
-        background-color: black;
-        margin: 3px 0;
-      }
-
+    div {
+      width: 35px;
+      height: 4px;
+      background-color: $black-color;
+      margin: 3px 0;
     }
+
+  }
 
   nav {  
     float: right;
@@ -50,15 +50,15 @@
             text-decoration: none; 
             margin: 0 15px 0 0!important;
             color: $white-color;
-            transition: 0.5s linear;
+            @include transition(0.5s, linear);
             padding: 5px;
             display: block;
             
             @media screen and (min-width:769px) { 
               color: $green-color;
               display: inline;
-              border: 1px solid  $white-color;
-              border-radius: 15px;
+              border: 1px solid $white-color;
+              @include border-radius(15px);
               text-transform: uppercase;
             }
 
@@ -66,9 +66,9 @@
               
               @media screen and (min-width:769px) { 
                 color: $green-color;
-                transition: 0.2s linear;
-                border: 1px solid  $green-color;
-                border-radius: 15px;
+                @include transition(0.2s, linear);
+                border: 1px solid $green-color;
+                @include border-radius(15px);
               }
               
           }
