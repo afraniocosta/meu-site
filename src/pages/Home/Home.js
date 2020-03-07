@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import './home.scss'
 import avatar from '../../assets/avatar.png'
+import { Title } from './styles';
 
 function Home () {
   return (
@@ -22,7 +23,9 @@ function Home () {
           </div>
           <div className="col-12 col-md-6 col-lg-5 mt-3 ml-0">
             <h2 className="mt-5 green-color">
-            Quem <span className='gray-color'>sou eu</span>
+            <Title fontSize={24}>
+              Quem  <span>sou eu</span>
+            </Title>
             </h2>  
             <p className="mt-3 gray-text"> 
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
