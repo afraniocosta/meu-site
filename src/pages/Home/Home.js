@@ -1,21 +1,24 @@
 import React from 'react'
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
-import './home.scss'
+// import './home.scss'
 import './../../assets/custom.scss'
 import avatar from '../../assets/avatar.png'
-import { Title } from './styles';
+import * as S from './styles';
+import { ThemeProvider } from 'styled-components'
+import defaultTheme from '../../themes/defaultTheme'; 
 
 function Home () {
+
   return (
-    <>
-      <section>
-        <div className="container">
+    <ThemeProvider theme={defaultTheme}>
+      <S.Section>
+        <S.Container>
           <div className="row">
             <Header />
           </div>
-        </div>  
-      </section>
+        </S.Container>  
+      </S.Section>
       
       <div id="home" className="container mt-5">
         <div className="row">
@@ -24,10 +27,13 @@ function Home () {
           </div>
           <div className="col-12 col-md-6 col-lg-5 mt-3 ml-0">
             <h2 className="mt-5 green-color">
-            <Title fontSize={24}>
+            <S.Title fontSize={24} numbers='one'>
               Quem  <span>sou eu</span>
-            </Title>
-            </h2>  
+            </S.Title>
+            </h2> 
+            <S.Paragrafo fontSize={14} >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            </S.Paragrafo> 
             <p className="mt-3 gray-text"> 
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             </p>
@@ -35,8 +41,8 @@ function Home () {
           </div>
         </div>
       </div>
-    <Footer />
-    </>
+      <Footer />
+    </ThemeProvider>
   )
 }
 
