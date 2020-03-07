@@ -2,9 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import './assets/custom.scss'
-import App from './App'
+import Quiz from './components/Quiz/Quiz'
 
 ReactDOM.render(
-	<App />,
+	<Quiz />,
 	document.getElementById('root')
 );

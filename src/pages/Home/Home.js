@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import './home.scss'
+import './../../assets/custom.scss'
 import avatar from '../../assets/avatar.png'
 import { Title } from './styles';
 

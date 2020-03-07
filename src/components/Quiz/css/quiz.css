@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    float: left;    
+    
+}
+p{
+    margin-bottom: 10px;
+}
+.content {
+    margin: 0 auto;
+    width: 600px;
+    height: 200px;
+    top:30px;
+}
+.mt-15 {
+    margin-top: 15px;
+    float: left;
+}
+.button{
+width: 100px;
+height: 20px;
+background-color: #ccc;
+border: none;
+margin-right: 5px;
+}
+.botoes {
+    float: left;
+    clear: both;
+    margin-top: 20px;
+}
+label {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-bottom: 5px;
+}
